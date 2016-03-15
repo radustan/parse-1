@@ -50,7 +50,7 @@ options = Object.keys(definitions).reduce(function (options, key) {
 }, options);
 
 if (!options.serverURL) {
-  options.serverURL = `http://localhost:${options.port}${options.mountPath}`;
+  options.serverURL = `http://127.0.0.1:${options.port}${options.mountPath}`;
 }
 
 if (!options.appId || !options.masterKey || !options.serverURL) {

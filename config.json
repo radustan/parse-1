@@ -1,0 +1,7 @@
+{
+  "appId": "APPLICATION_ID",
+  "masterKey": "myMasterKey",
+  "fileKey": "optionalFileKey",
+  "serverURL": "http://localhost:1337/parse",
+  "restAPIKey": "restkey"
+}
